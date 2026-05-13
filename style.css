@@ -455,9 +455,6 @@ header {
   text-align: center;
   border-radius: 6px;
 }
-input[type="checkbox"] {
-  display: none;
-}
 /* ======= BLC13 - rect ======= */
 .blc13-rect {
   background-color: #7C2D12;
