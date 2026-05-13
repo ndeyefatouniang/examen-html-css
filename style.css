@@ -533,11 +533,12 @@ input[type="checkbox"] {
   .blc2 {
     display: none;
     width: 100%;
+    margin-top: 15px;
   }
   .blc2 ul {
     flex-wrap: wrap;
     text-align: center;
-    padding: 15px 0;
+    padding: 5px ;
     gap: 10px;
   }
 }
