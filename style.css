@@ -534,8 +534,9 @@ input[type="checkbox"] {
   .blc2 ul {
     display: flex;
    flex-direction: column;
-    text-align: center;
+    align-items: center;
     gap: 10px;
+    padding: 10px;
   }
 }
   input[type="checkbox"]:checked ~ .blc2 {
