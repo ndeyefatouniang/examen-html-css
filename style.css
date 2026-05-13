@@ -532,12 +532,6 @@ input[type="checkbox"] {
     display: none;
     width: 100%;
   }
-
-  /* clique */
-  input[type="checkbox"]:checked ~ .blc2 {
-    display: block;
-  }
-
   .blc2 ul {
     flex-wrap: wrap;
     text-align: center;
@@ -545,6 +539,9 @@ input[type="checkbox"] {
     gap: 10px;
   }
 }
+  input[type="checkbox"]:checked ~ .blc2 {
+    display: block;
+  }
 /* ======= BLC2  ======= */
 @media (max-width: 1024px) {
   .blc2 ul {
