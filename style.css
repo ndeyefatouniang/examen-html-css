@@ -1,4 +1,4 @@
-/* ======= TERANGA FOOD - style.css ======= */
+/* ---- TERANGA FOOD - style.css ---- */
 * {
   margin: 0;
   padding: 0;
@@ -20,7 +20,7 @@ img {
   width: 100%;
 }
 
-/* ======= HEADER ======= */
+/* ---- header ---- */
 header {
   position: fixed;
   width: 100%;
@@ -60,7 +60,7 @@ header {
   font-weight: bold;
 }
 
-/* ======= BOUTONS ======= */
+/*---- bouton ---- */
 .bouton-orange {
   background-color: #D97706;
   color: white;
@@ -91,7 +91,7 @@ header {
   color: #7C2D12;
 }
 
-/* ======= BLC3 ======= */
+/* ---- blc3 ---- */
 .blc3 {
   background-image: url(image/thiebdieune.jpg);
   background-size: cover;
@@ -119,7 +119,7 @@ header {
   justify-content: center;
 }
 
-/* ======= BLC4 ======= */
+/* ---- blc4 ---- */
 .blc4 {
   text-align: center;
   padding: 50px 30px;
@@ -139,7 +139,7 @@ header {
   font-size: 1rem;
 }
 
-/* ======= BLC5  ======= */
+/* ---- blc5  ---- */
 .blc5 {
   padding: 50px 30px;
   background-color: #FFFFFF;
@@ -152,7 +152,7 @@ header {
   margin-bottom: 30px;
 }
 
-/* ======= rectangle1 ======= */
+/* ---- rectangle1 ---- */
 .rectangle1 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -169,7 +169,7 @@ header {
   margin: 0 auto;
 }
 
-/* ======= CARTE ======= */
+/* ---- carte ---- */
 .carte {
   background-color: #FFFFFF;
   border-radius: 10px;
@@ -206,7 +206,7 @@ header {
   margin-bottom: 10px;
 }
 
-/* ======= BLC6  ======= */
+/* ---- blc6  ---- */
 .blc6 {
   margin-top: 00px;
   background-color: #7C2D12;
@@ -227,7 +227,7 @@ header {
   color: #f0d5be;
 }
 
-/* ======= BLC7 ======= */
+/* ----blc7 ---- */
 .blc7 {
   padding: 50px 30px;
   background-color: #FFF7ED;
@@ -240,7 +240,7 @@ header {
   margin-bottom: 30px;
 }
 
-/* ======= BLC8 ======= */
+/*---- blc8 ---- */
 .blc8 {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -268,7 +268,7 @@ header {
   margin-bottom: 10px;
 }
 
-/* ======= BLC9 ======= */
+/* ---- blc9 ---- */
 .blc9 {
   padding: 50px 30px;
   background-color: #7C2D12;
@@ -311,7 +311,7 @@ header {
   color: #f0d5be;
 }
 
-/* ======= BLC10 ======= */
+/* ---- blc10 ---- */
 .blc10 {
   padding: 50px 30px;
   text-align: center;
@@ -357,7 +357,7 @@ header {
   font-size: 0.85rem;
 }
 
-/* ======= BLC11 - Galerie ======= */
+/* ---- blc11 - galerie ======= */
 .blc11-galerie {
   padding: 50px 30px;
   background-color: #FFF7ED;
@@ -384,7 +384,7 @@ header {
   border-radius: 8px;
 }
 
-/* ======= BLC12 ======= */
+/* ---- blc12 ---- */
 .blc12 {
   padding: 60px 30px;
   background-color: #FFF7ED;
@@ -459,7 +459,7 @@ header {
 input[type="checkbox"] {
   display: none;
 }
-/* ======= BLC13 - rect ======= */
+/* ---- blc13 - rect ---- */
 .blc13-rect {
   background-color: #7C2D12;
   color: #f0d5be;
@@ -504,7 +504,7 @@ input[type="checkbox"] {
 
 
 
-/* Bouton burger  */
+/* bouton burger  */
 .burger {
   display: none;
  flex-direction: column;
@@ -543,7 +543,7 @@ input[type="checkbox"] {
   input[type="checkbox"]:checked ~ .blc2 {
     display: block;
   }
-/* ======= BLC2  ======= */
+/* ---- blc2  ---- */
 @media (max-width: 1024px) {
   .blc2 ul {
     flex-wrap: wrap;
@@ -559,7 +559,7 @@ input[type="checkbox"] {
   }
 }
 
-/* ======= BLC3  ======= */
+/*---- blc3  ---- */
 @media (max-width: 1024px) {
   .blc3 {
     padding: 80px 15px;
@@ -578,7 +578,7 @@ input[type="checkbox"] {
   }
 }
 
-/* ======= BLC5  ======= */
+/*---- blc5  ---- */
 @media (max-width: 1024px) {
   .rectangle1 {
     grid-template-columns: repeat(2, 1fr);
@@ -590,7 +590,7 @@ input[type="checkbox"] {
   }
 }
 
-/* ======= BLC7  ======= */
+/* ---- blc7  ---- */
 @media (max-width: 1024px) {
   .rectangle2 {
     grid-template-columns: repeat(2, 1fr);
@@ -602,7 +602,7 @@ input[type="checkbox"] {
   }
 }
 
-/* ======= BLC8  ======= */
+/* ---- BLC8  ---- */
 @media (max-width: 1024px) {
   .blc8 {
     grid-template-columns: 1fr;
@@ -614,7 +614,7 @@ input[type="checkbox"] {
   }
 }
 
-/* ======= BLC9  ======= */
+/* ----blc9---- */
 @media (max-width: 1024px) {
   .rectangle3 {
     grid-template-columns: repeat(2, 1fr);
@@ -626,7 +626,7 @@ input[type="checkbox"] {
   }
 }
 
-/* ======= BLC10  ======= */
+/*---- blc10  ---- */
 @media (max-width: 1024px) {
   .rectangle4 {
     grid-template-columns: repeat(2, 1fr);
@@ -638,7 +638,7 @@ input[type="checkbox"] {
   }
 }
 
-/* ======= BLC11 - Galerie ======= */
+/* ---- blc11 - galerie ======= */
 @media (max-width: 1024px) {
   .rectangle-galerie {
     grid-template-columns: repeat(2, 1fr);
@@ -650,7 +650,7 @@ input[type="checkbox"] {
   }
 }
 
-/* ======= BLC13 - Footer ======= */
+/* ---- blc13 - footer ---- */
 @media (max-width: 1024px) {
   .rect1 {
     grid-template-columns: repeat(2, 1fr);
