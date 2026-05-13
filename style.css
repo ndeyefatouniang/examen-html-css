@@ -537,7 +537,6 @@ input[type="checkbox"] {
   .blc2 ul {
     flex-wrap: wrap;
     text-align: center;
-    padding: 15px 0;
     gap: 10px;
   }
 }
