@@ -507,7 +507,7 @@ input[type="checkbox"] {
 /* Bouton burger  */
 .burger {
   display: none;
- flex-wrap: wrap;
+ flex-direction: column;
   gap: 5px; 
 }
 
