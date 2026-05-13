@@ -455,16 +455,16 @@ header {
   text-align: center;
   border-radius: 6px;
 }
-
+input[type="checkbox"] {
+  display: none;
+}
 /* ======= BLC13 - rect ======= */
 .blc13-rect {
   background-color: #7C2D12;
   color: #f0d5be;
   padding: 40px 40px 20px;
 }
-input{
-  display: none;
-}
+
 .rect1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
