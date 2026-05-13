@@ -507,7 +507,8 @@ input[type="checkbox"] {
 .burger {
   display: none;
  flex-wrap: wrap;
-  gap: 5px; }
+  gap: 5px; 
+}
 
 /* Les traits */
 .burger div {
