@@ -521,7 +521,9 @@ input{
 
 /* Sur mobile */
 @media (max-width: 414px) {
-
+  header{
+    flex-wrap: wrap;
+  }
   .burger {
     display: flex;
   }
@@ -537,7 +539,7 @@ input{
   }
 
   .blc2 ul {
-    flex-direction: column;
+    flex-wrap: wrap;
     text-align: center;
     padding: 15px 0;
     gap: 10px;
