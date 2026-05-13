@@ -506,10 +506,8 @@ input[type="checkbox"] {
 /* Bouton burger  */
 .burger {
   display: none;
-  flex-direction: column;
-  gap: 5px;
-  cursor: pointer;
-}
+ flex-wrap: wrap;
+  gap: 5px; }
 
 /* Les traits */
 .burger div {
