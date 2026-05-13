@@ -2,6 +2,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -21,7 +22,6 @@ img {
 
 /* ======= HEADER ======= */
 header {
-  position: fixed;
   width: 100%;
   background-color: #7C2D12;
   padding: 10px ;
