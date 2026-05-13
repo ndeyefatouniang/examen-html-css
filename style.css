@@ -532,6 +532,7 @@ input[type="checkbox"] {
     width: 100%;
   }
   .blc2 ul {
+    display: flex;
     flex-wrap: wrap;
     text-align: center;
     gap: 10px;
