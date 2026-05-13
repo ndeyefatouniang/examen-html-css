@@ -39,6 +39,9 @@ header {
 }
 
 /* BLC2 */
+.blc2{
+  display: block;
+}
 .blc2 ul {
   list-style: none;
   display: flex;
